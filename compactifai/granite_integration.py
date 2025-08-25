@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 from transformers import AutoTokenizer, AutoModelForCausalLM
 import copy
-from typing import Dict, List, Optional, Union, Tuple
+from typing import Dict, List, Optional, Union, Tuple, Any
 from tqdm import tqdm
 import logging
 
